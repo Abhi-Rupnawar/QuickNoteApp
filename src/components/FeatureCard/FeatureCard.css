@@ -1,0 +1,41 @@
+.feature-card{
+    background-color: #f7f6f4;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #BED1CF;
+    cursor: pointer;
+}
+
+.features-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.feature-img{
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+}
+.feature-text{
+    font-size: 12px;
+}
+@media screen and (max-width: 500px) {
+
+    .feature-card{
+       margin-top: 20px;
+       padding: 10px;
+    }
+
+    .feature-img{
+        height: 30px;
+        display: block;
+        margin: 10px auto;
+    }
+    .features-container{
+        margin-left: 130px;
+        display: block;
+    }
+    
+}

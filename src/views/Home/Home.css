@@ -1,0 +1,44 @@
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.feature-card{
+    background-color: #fff;
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #BED1CF;
+    cursor: pointer;
+}
+
+.features-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.feature-img{
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+}
+.feature-text{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .app-title{
+     font-size: 20px;
+    }
+    .tagline-highlight{
+        display: block;
+    }
+    .buttons-container{
+        /* background-color: #fff; */
+        /* position: fixed; */
+        
+        
+    }
+}

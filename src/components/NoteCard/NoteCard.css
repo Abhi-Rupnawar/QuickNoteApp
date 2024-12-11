@@ -1,0 +1,87 @@
+.note-card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 30px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.2);
+    position: relative;
+}
+.note-car-emoji{
+    font-size: 40px;
+    margin-right:40px ;
+}
+.note-card-title{
+    margin: 0;
+}
+.note-card-description{
+    margin: 0;
+}
+.note-card-category{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 12px;
+    min-width: 60px;
+    text-align: center;
+}
+.note-category-emoji{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.bg-shopping{
+    background-color: #cc99ff;
+}
+.bg-work{
+    background-color: #6699ff;
+}
+.bg-personal{
+    background-color: #00cc66;
+}
+.bg-learning{
+    background-color: #ffcc00;
+}
+.bg-health{
+    background-color: #ff6666;
+}
+.note-card-delete{
+    height: 20px;
+    position: absolute;
+    bottom: -1px;
+    right: 35px;
+    cursor: pointer;
+
+}
+.note-card-delete:hover{
+    transform: scale(1.1);
+}
+
+@media screen and(max-width: 500px) {
+    .note-card{
+        margin: 10ps 5px;
+    }
+    .note-car-emoji{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .note-card-title{
+        font-size: 16px;
+    }
+    .note-card-description{
+        font-size: 14px;
+    }
+    .note-card-category{
+        font-size: 8px;
+        min-width: 50px;
+        top: 2px;
+        right: 5px;
+        padding: 1px 5px;
+    }
+    .note-category-emoji{
+        font-size: 12px;
+    }
+}
